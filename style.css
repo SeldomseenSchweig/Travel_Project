@@ -1,0 +1,178 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  width: 100%;
+  background: linear-gradient(white, red);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  padding: 15px;
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header-img-container {
+  background-image: url("/assets/poznan.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.title-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: whitesmoke
+}
+
+.title-container h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#attraction-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  width: 100%;
+  background: linear-gradient(white, red);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  flex: 1;
+  text-align: center;
+}
+
+.navbar li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  /* Change to desired color */
+}
+
+.header-img-container {
+  width: 100%;
+  height: 300px;
+  /* Adjust the height as needed */
+  background-image: url('/assets/poznan.jpg');
+  background-size: cover;
+  /* Cover the entire container */
+  background-position: center;
+  /* Center the image within the container */
+  background-repeat: no-repeat;
+  /* Prevent the image from repeating */
+  position: relative;
+  /* Necessary for absolutely positioning the title */
+}
+
+.title-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: whitesmoke;
+  /* Change the color as needed */
+}
+
+.title-container h1 {
+  font-size: 2.5em;
+  /* Adjust the font size as needed */
+  margin: 0;
+}
+
+#attraction-title, #foodguide-title, #photo-gallery-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.attractions-container, .foodguide-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.at, .foodguide-item {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px black solid;
+}
+
+.at h4 {
+  margin: 10px 0;
+}
+
+.at-images, .food-images {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.at p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.gallery-container{
+  display: flex;
+  flex-direction:row;
+}
+.gallery-item{
+  
+}
