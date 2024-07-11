@@ -12,9 +12,10 @@ body {
   padding: 10px 20px;
 }
 
-#brand{
+#brand {
   width: 75%;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -82,7 +83,7 @@ body {
     top: 60px;
     left: 0;
     width: 100%;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
   }
 
@@ -134,7 +135,7 @@ body {
 }
 
 .content img {
-  width: 100%;
+  width: 75%;
   height: auto;
   border-radius: 10px;
 }
@@ -197,7 +198,7 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   color: whitesmoke;
- 
+
 }
 
 .title-container h1 {
@@ -206,19 +207,23 @@ body {
   margin: 0;
 }
 
-#attraction-title, #foodguide-title, #photo-gallery-title {
+#attraction-title,
+#foodguide-title,
+#photo-gallery-title {
   text-align: center;
   margin: 20px 0;
 }
 
-.attractions-container, .foodguide-container {
+.attractions-container,
+.foodguide-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
 }
 
-.at, .foodguide-item {
+.at,
+.foodguide-item {
   width: 50%;
   text-align: center;
   margin-bottom: 20px;
@@ -229,7 +234,8 @@ body {
   margin: 10px 0;
 }
 
-.at-images, .food-images {
+.at-images,
+.food-images {
   width: 100%;
   height: auto;
   border-radius: 10px;
